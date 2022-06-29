@@ -1,0 +1,107 @@
+.container {
+  display:flex;
+  justify-content: space-between;
+  order:0;
+}
+.spalva {
+  background-image: url(/assets/background.svg);
+  background-color: coral;
+  width: 25%;
+  height: 25%;
+  padding: 10px;
+  margin: 10px;
+}
+
+
+header nav {
+  text-align: right;
+  padding: 20px;
+}
+
+header nav a {
+  margin-right: 20px;
+  color:black; 
+}
+.kitoks {
+  /* border:thin solid red; */
+  color:red
+}
+
+h1 {
+  text-align: left; 
+}
+h2 {
+  text-align: left;
+}  
+.text {
+  color: red;
+  text-align: left;    
+  }
+  .spalva {
+    width: 30%;
+    height: 30%;
+  }
+
+.baibokas {
+  width: 50%;
+  height: 50%;}
+  .companies {
+   display: flex;
+   align-self: start;
+   justify-self: start;
+   width: 2rem;
+   height: 2rem;
+}
+.zalias zmogus {
+  image-orientation: from-image;
+  }
+.blokas {
+  display:flex;
+  justify-items:initial;
+  width: 30%;
+  height: 30%;
+ 
+}
+.NavigacijosPabaigoje {
+  display: grid;
+  grid-template-columns: 25%25%25%25%;
+  grid-template-rows: 25%25%25%25%;
+}
+
+.ikonos {
+  display: flex;
+  gap:5px;
+}
+  @media screen and (max-width: 650px) {
+    body {
+     width: 100%;}
+
+    header {
+          flex-direction: column;
+        }
+    .main_header img {
+          display:inline;
+        }
+        .main_header {
+          align-items:flex-start;
+        }
+          .header_container {
+            width: 265px;
+            text-align:start;
+          }
+          nav img {
+            display: none;
+          }
+          nav a {
+            color: rgba(166, 166, 166, 0.986);
+            text-decoration: none;
+            font-size: large;
+            margin-right: 10px;
+          }
+          nav a.active {
+            border-bottom: 3px solid black;
+          }}
+footer {
+    display: flex;
+    justify-content:space-between
+}
